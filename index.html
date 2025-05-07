@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Trimmer Unisex Salon</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .hero {
+      background-image: url('data:image/jpeg;base64,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');
+      background-position: center;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: rgb(17, 7, 7);
+      background-color: bisque;
+      font: weight 200px;;
+    }
+    .hero h1 {
+      font-size: 7rem;
+      font-weight: bold;
+    }
+    
+  </style>
+  </head>
+   <body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">The Trimmer Unisex Salon</a>
+      </ul>
+      <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="text-center">
+      <h1>Welcome to The Trimmer</h1>
+      <p class="text-xl mt-9">Your Beauty,Our Passion</p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-5bg-light">
+    <div class="container">
+      <h2 class="text-center mb-10">About Us</h2>
+      <p class="text-center">Welcome to "The Trimmer Unisex Salon", where beauty meets passion. Our expert stylists are 
+        dedicated to providing exceptional service and personalized care to help you look and feel your best. With a focus on quality,
+         creativity, and customer satisfaction, we've built a reputation for delivering outstanding results. Whether you're seeking a fresh cut, vibrant color, or luxurious treatment, our team is committed to exceeding your expectations. Step into our salon and experience the art of beauty, tailored to you.</p>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-10">Our Services</h2>
+      <div class="row text-center">
+        <div class="col-md-4 mb-3">
+          <div class="p-4 shadow rounded bg-white">
+            <img src="35abcb8d1de9c4ae83fe30787345c4ad (1).jpg" class="img-fluid mb-3" alt="Haircut">
+            <h5>Haircuts & Styling</h5>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="p-4 shadow rounded bg-white">
+            <img src="1d1fe6846724676b340cb2ead7161aaa (1).jpg" class="img-fluid mb-3" alt="Facial">
+            <h5>Facials & Skin Care</h5>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="p-4 shadow rounded bg-white">
+            <img src="1aa1b13027c1d5e94601c6a70902afab.jpg" class="img-fluid mb-3" alt="Spa">
+            <h5>Body Spa & Massage</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Gallery</h2>
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <img src="IMG-20250507-WA0005.jpg" class="img-fluid rounded" alt="Salon Interior">
+        </div>
+        <div class="col-md-4 mb-3">
+          <img src="IMG-20250507-WA0009.jpg" class="img-fluid rounded" alt="Salon Setup">
+        </div>
+        <div class="col-md-4 mb-3">
+          <img src="IMG-20250507-WA0012.jpg" class="img-fluid rounded" alt="Clients">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+          <h2 class="text-center mb-4">Visit Us</h2>
+          <p class="text-center">46 Radhaswami Nagar, Chitawad, Indore</p>
+          <p class="text-center">Phone: +91 6268211810</p>
+          <p class="text-center">Email: info@thetrimmer.com</p>
+        </div>
+        <div class="col-md-6">
+          <h2 class="text-center mb-4">Contact Us</h2>
+            <div class="row">
+              <div class="col-md-9">
+          <form>
+            <div class="mb-3">
+              <input type="text" class="form-control" placeholder="Your Name">
+            </div>
+            <div class="mb-3">
+              <input type="email" class="form-control" placeholder="Your Email">
+            </div>
+            <div class="mb-3">
+              <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
+            </div>
+            <button class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2025 The Trimmer Unisex Salon.
+       All rights reserved.</p>
+  </footer>
+   <!-- JavaScript to switch between sections -->
+   <script>
+    function showContent(section) {
+      // Hide all sections
+      const sections = document.querySelectorAll('.content-section');
+      sections.forEach((section) => {
+        section.classList.remove('active-section');
+      });
+
+      // Show the clicked section
+      const activeSection = document.getElementById(section);
+      activeSection.classList.add('active-section');
+    }
+  </script>
+</body>
+</html>
